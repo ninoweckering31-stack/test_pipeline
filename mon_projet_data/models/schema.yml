@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_ventes
+    description: "Données de ventes nettoyées"
+
+    columns:
+      - name: client
+        description: "Nom du client"
+        data_tests:
+          - not_null
+
+      - name: montant
+        description: "Montant de la vente"
+        data_tests:
+          - not_null
+
+  - name: ventes_par_client
+    description: "Chiffre d'affaires agrégé par client"
+
+    columns:
+      - name: client
+        data_tests:
+          - not_null
+          - unique
+
+      - name: chiffre_affaires
+        data_tests:
+          - not_null

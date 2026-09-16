@@ -1,0 +1,9 @@
+date,client,produit,montant
+2026-01-01,Alice,Laptop,1200
+2026-01-02,Bob,Souris,50
+2026-01-03,Alice,Clavier,100
+2026-01-04,Charlie,Laptop,1200
+2026-01-05,Bob,Clavier,100
+2026-01-06,Alice,Souris,50
+2026-01-07,Charlie,Ecran,300
+2026-01-08,Alice,Laptop,1200
